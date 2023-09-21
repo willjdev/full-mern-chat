@@ -14,7 +14,7 @@ dbConnection();
 
 // CORS
 const corsOptions = {
-    origin: 'http://localhost:5173',
+    origin: 'https://full-mern-chat.vercel.app/',
     credentials: true
 };
 app.use( cors( corsOptions ) );
