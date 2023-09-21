@@ -1,0 +1,11 @@
+{
+    "buildCommand": "cd client && yarn install && ./node_modules/vite/bin/vite.js build",
+    "outputDirectory": "mern-chat/dist",
+    "framework": "vite",
+    "rewrites": [
+        {
+            "source": "/mern-chat-backend/(.*)",
+            "destination": "/mern-chat-backend/index.js"
+        }
+    ]
+}
