@@ -1,3 +1,4 @@
 mern-chat/node_modules
 mern-chat-backend/uploads/*
+mern-chat-backend/node_modules
 mern-chat-backend/.env
